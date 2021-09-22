@@ -1,5 +1,4 @@
-const team = [
-    {
+const team = [{
         name: "Julien",
         occupation: "Dev back-end"
     },
@@ -49,3 +48,13 @@ document.querySelector('.new-submit').addEventListener('click', (e) => {
 document.getElementById("picture").addEventListener("click", function () {
    this.src = "img/pic2.jpg"
 });
+
+function modifCss() {
+    var div = document.getElementById('header');
+    console.log(div);
+    div.style.backgroundColor = 'green';
+
+}
+
+document.getElementById('header').addEventListener('click', modifCss);
+
