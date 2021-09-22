@@ -46,9 +46,6 @@ document.querySelector('.new-submit').addEventListener('click', (e) => {
 
 })
 
-
-
-
 document.getElementById("picture").addEventListener("click", function () {
    this.src = "img/pic2.jpg"
 });
